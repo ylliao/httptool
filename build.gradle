@@ -1,0 +1,27 @@
+group 'com.starnet'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile (
+        'junit:junit:4.12'
+    )
+
+    compile (
+        'org.jodd:jodd-http:3.9.1',
+        'com.squareup.okhttp3:okhttp:3.9.0'
+    )
+}
+// 编译Java编码采用UTF-8
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
