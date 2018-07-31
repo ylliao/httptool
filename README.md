@@ -3,7 +3,7 @@ HTTP客户端请求工具，包含Jodd-Http，OkHttp3两种第三方httpClient A
 
 ## 第三方工具
 ### Jodd-Http
-官方地址：https://jodd.org/util/http.html
+官方地址：https://jodd.org/http/
 
-### OkHttp3
-官方地址：http://square.github.io/okhttp/
+### OkHttp
+官方地址：https://github.com/square/okhttp/
